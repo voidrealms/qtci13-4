@@ -2,7 +2,7 @@
 
 worker::worker(QObject *parent) : QObject(parent)
 {
-
+    m_busy = false;
 }
 
 bool worker::isBusy()
